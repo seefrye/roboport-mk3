@@ -6,8 +6,8 @@ data:extend(
       sprite =
       {
         filename = "__personal-roboport-mk3__/graphics/item/personal-roboport-mk3-equipment.png",
-        width = 64,
-        height = 64,
+        width = 128,
+        height = 128,
         priority = "medium",
       },
       shape =
@@ -43,7 +43,7 @@ data:extend(
         scale = 1.5,
         animation_speed = 0.5
       },
-      recharging_light = {intensity = 0.2, size = 3, color = {r = 0.5, g = 0.5, b = 1.0}},
+      recharging_light = {intensity = 0.2, size = 3, color = {r = 0.5, g = 0.25, b = 0.5}},
       stationing_offset = {0, -0.6},
       charging_station_shift = {0, 0.5},
       charging_station_count = "10",
