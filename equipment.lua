@@ -19,14 +19,14 @@ data:extend(
       energy_source =
       {
         type = "electric",
-        buffer_capacity = "75MW",
-        input_flow_limit = "7.5MW",
+        buffer_capacity = "150MW",
+        input_flow_limit = "15MW",
         usage_priority = "secondary-input"
       },
-      charging_energy = "1250kW",
+      charging_energy = "1500kW",
   
       robot_limit = "50",
-      construction_radius = "50",
+      construction_radius = "60",
       spawn_and_station_height = "0.5",
       spawn_and_station_shadow_height_offset = "0.4",
       charge_approach_distance = "2.7",
@@ -48,7 +48,7 @@ data:extend(
       charging_station_shift = {0, 0.5},
       charging_station_count = "10",
       charging_distance = "1.7",
-      charging_threshold_distance = 5,
+      charging_threshold_distance = 7.5,
       categories = {"armor"}
     }
   })
