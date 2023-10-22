@@ -1,7 +1,7 @@
 {
-  "name": "personal-roboport-mk3",
-  "version": "0.0.2",
-  "title": "Personal Roboport mk3",
+  "name": "improved-personal-roboport",
+  "version": "0.0.5",
+  "title": "Personal Roboport MK3",
   "author": "You",
   "factorio_version": "1.1",
   "dependencies": ["base >= 1.1"],

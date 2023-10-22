@@ -1,0 +1,39 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 23. 10. 2023
+  Changes:
+  To-Do:
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 23. 10. 2023
+  Changes:
+    - Added proper research requirements and prereqs
+    - Added localization for research
+  To-Do:
+    - Seperate the item/equipment graphic and the research graphic
+    - Standardize 'mk3' vs 'MK3' - try to be more consistant
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 22. 10. 2023
+  Features:
+    - Added research and prerequisite
+        - Will need a proper recipe, right now it's way too cheap
+    - Added startup option to allow setting the robot_limit
+        - Not a permenant addition, I don't want robot_limit to be configurable. Just a test to practice creating and reading options
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 21. 10. 2023
+  Major Features:
+    - Changed recipe to better reflect the high cost of this upgrade
+        - Currently requires Space Exploration mod
+  To-Do:
+    - Add support for Vanilla, with startup option to set the recipe and research requirements accordingly
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 21. 10. 2023
+  Major Features:
+    - Initial release
+  To-Do:
+    - Add research requirement
+    - Correct recipe
+    - Add mod options to allow configuration

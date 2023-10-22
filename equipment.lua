@@ -5,7 +5,7 @@ data:extend(
       name = "personal-roboport-mk3-equipment",
       sprite =
       {
-        filename = "__personal-roboport-mk3__/graphics/item/personal-roboport-mk3-equipment.png",
+        filename = "__improved-personal-roboport__/graphics/item/personal-roboport-mk3-equipment.png",
         width = 128,
         height = 128,
         priority = "medium",
@@ -25,7 +25,7 @@ data:extend(
       },
       charging_energy = "1500kW",
   
-      robot_limit = "50",
+      --robot_limit = "50",
       construction_radius = "60",
       spawn_and_station_height = "0.5",
       spawn_and_station_shadow_height_offset = "0.4",
@@ -49,6 +49,7 @@ data:extend(
       charging_station_count = "10",
       charging_distance = "1.7",
       charging_threshold_distance = 7.5,
+      robot_limit = settings.startup["personal-roboport-mk3-robot-limit"].value,
       categories = {"armor"}
     }
   })
